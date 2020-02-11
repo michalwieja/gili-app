@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d059edf24e817f2dd20f9a8dc8892164",
+    "revision": "de5b2364141950869a785da67581107d",
     "url": "/gili-app/index.html"
   },
   {
-    "revision": "623a73a6dbaf5cc104c5",
-    "url": "/gili-app/static/css/main.adbc5a6e.chunk.css"
+    "revision": "114a6ee67be1d19204d3",
+    "url": "/gili-app/static/css/main.ac723531.chunk.css"
   },
   {
     "revision": "233565ac186ed3b8e6fe",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gili-app/static/js/2.52adb351.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "623a73a6dbaf5cc104c5",
-    "url": "/gili-app/static/js/main.13ee9f41.chunk.js"
+    "revision": "114a6ee67be1d19204d3",
+    "url": "/gili-app/static/js/main.24ddf150.chunk.js"
   },
   {
     "revision": "4b3f1a0efaed4eab19ed",

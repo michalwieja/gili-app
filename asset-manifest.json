@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/gili-app/static/css/main.adbc5a6e.chunk.css",
-    "main.js": "/gili-app/static/js/main.13ee9f41.chunk.js",
-    "main.js.map": "/gili-app/static/js/main.13ee9f41.chunk.js.map",
+    "main.css": "/gili-app/static/css/main.ac723531.chunk.css",
+    "main.js": "/gili-app/static/js/main.24ddf150.chunk.js",
+    "main.js.map": "/gili-app/static/js/main.24ddf150.chunk.js.map",
     "runtime-main.js": "/gili-app/static/js/runtime-main.ca3332bb.js",
     "runtime-main.js.map": "/gili-app/static/js/runtime-main.ca3332bb.js.map",
     "static/js/2.52adb351.chunk.js": "/gili-app/static/js/2.52adb351.chunk.js",
     "static/js/2.52adb351.chunk.js.map": "/gili-app/static/js/2.52adb351.chunk.js.map",
     "index.html": "/gili-app/index.html",
-    "precache-manifest.772efc2b0bd91bb49722e363ab289c2d.js": "/gili-app/precache-manifest.772efc2b0bd91bb49722e363ab289c2d.js",
+    "precache-manifest.53f11f85b0225f9ab0cc8f8600ea8503.js": "/gili-app/precache-manifest.53f11f85b0225f9ab0cc8f8600ea8503.js",
     "service-worker.js": "/gili-app/service-worker.js",
-    "static/css/main.adbc5a6e.chunk.css.map": "/gili-app/static/css/main.adbc5a6e.chunk.css.map",
+    "static/css/main.ac723531.chunk.css.map": "/gili-app/static/css/main.ac723531.chunk.css.map",
     "static/js/2.52adb351.chunk.js.LICENSE.txt": "/gili-app/static/js/2.52adb351.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ca3332bb.js",
     "static/js/2.52adb351.chunk.js",
-    "static/css/main.adbc5a6e.chunk.css",
-    "static/js/main.13ee9f41.chunk.js"
+    "static/css/main.ac723531.chunk.css",
+    "static/js/main.24ddf150.chunk.js"
   ]
 }
