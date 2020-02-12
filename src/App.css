@@ -16,23 +16,36 @@
   /* border: 1px solid black; */
   margin: 10px;
   padding: 10px;
-  width: 40%;
+  width: 30%;
 }
 
 header {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+
+}
+
+.total,
+.hours {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
 }
 
 ul {
   list-style-type: none;
-  width: 60%;
+  width: 90%;
+  margin: 0auto;
 
 }
 
 li {
   display: flex;
   justify-content: space-between;
+}
+
+li:nth-child(even) {
+  background-color: #ddd;
 }
 
 .table:nth-child(3n) {

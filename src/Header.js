@@ -6,16 +6,56 @@ const Header = props => {
   items.map(item => (sum += item.price * item.value));
   return (
     <header>
-      <span>
-        SUMA: <strong>{sum}</strong> PLN
-      </span>
-      <span>
+      <div className="total">
+        <div>
+          SUMA: <strong>{sum}</strong> PLN
+        </div>
         <input
           type="text"
           value={props.name}
           onChange={props.handleNameChange}
         />
-      </span>
+      </div>
+      <div className="hours">
+        <div>
+          <button onClick={props.handleStartTime}>start</button>
+          <input
+            type="time"
+            disabled={true}
+            id="appt"
+            name="appt"
+            min="10:00"
+            max="19:00"
+            value={props.startTime}
+          />
+        </div>
+        <div>
+          <button onClick={props.handleStopTime}>stop</button>
+          <input
+            type="time"
+            disabled={true}
+            id="appt"
+            name="appt"
+            min="10:00"
+            max="19:00"
+            value={props.stopTime}
+          />
+        </div>
+        <div>
+          <label>
+            <small>Czas w Giligili </small>
+            <input
+              type="time"
+              disabled={true}
+              id="appt"
+              name="appt"
+              min="10:00"
+              max="19:00"
+              value={props.timeSpent}
+            />
+          </label>
+        </div>
+      </div>
     </header>
   );
 };
