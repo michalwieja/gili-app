@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/gili-app/precache-manifest.53f11f85b0225f9ab0cc8f8600ea8503.js"
+  "/gili-app/precache-manifest.030bd7f68865974849e77945ae52d3a4.js"
 );
 
 self.addEventListener('message', (event) => {
