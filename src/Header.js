@@ -4,12 +4,20 @@ const Header = props => {
   let sum = 0;
   let items = props.items;
   items.map(item => (sum += item.price * item.value));
+
   return (
     <header>
       <div className="total">
         <div>
           SUMA: <strong>{sum}</strong> PLN
         </div>
+        <button
+          onClick={event => {
+            props.handleTotalSum(sum);
+            props.handleReset();
+          }}>
+          reset
+        </button>
         <input
           type="text"
           value={props.name}
